@@ -1,0 +1,11 @@
+id,title,location,writer,is_missing,is_damaged
+1,신의 탑,A1,SIU,False,True
+2,뷰티풀 군바리,A2,설이/윤성원,False,False
+3,여신강림,B1,야옹이,False,False
+4,마음의 소리,B2,조석,False,False
+5,복학왕,C1,기안84,False,False
+6,유미의 세포들,C2,이동건,False,False
+7,연애혁명,D1,232,False,False
+8,기기괴괴,D2,오성대,False,False
+9,외모지상주의,E1,박태준,False,False
+10,갓 오브 하이스쿨,E2,박용제,False,False
