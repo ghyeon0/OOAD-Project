@@ -1,5 +1,5 @@
 class TimePlan:
-    def __init__(self, id, time,charge):
+    def __init__(self, id, time, charge):
         self.id = id
         self.time = time
         self.charge = charge

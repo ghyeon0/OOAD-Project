@@ -16,3 +16,9 @@ class Clerk:
     def set_id(self, id):
         self.id = id
 
+    def get_is_manager(self):
+        return self.is_manager
+
+    def set_is_manager(self, is_manager):
+        self.is_manager = is_manager
+

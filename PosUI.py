@@ -16,6 +16,7 @@ class PosUI:
                 print("4: 직원 관리 시스템")
                 print("5: 고객 관리 시스템")
                 print("6: 음식 관리 시스템")
+                print("7: 시스템 종료")
                 num = int(input("번호를 입력하세요: "))
                 if num == 1:
                     self.show_book_control_ui()
@@ -29,6 +30,9 @@ class PosUI:
                     self.show_customer_control_ui()
                 elif num == 6:
                     self.show_food_management_ui()
+                elif num == 7:
+                    self.shutdown()
+                    break
             except KeyboardInterrupt:
                 self.shutdown()
                 break

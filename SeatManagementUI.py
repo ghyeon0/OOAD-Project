@@ -22,7 +22,6 @@ class SeatManagementUI:
             self.add_new_time_plan()
         elif num == 4:
             self.remove_time_plan()
-        input("엔터를 입력하세요.")
 
     def show_current_seat_status(self):
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -40,6 +39,7 @@ class SeatManagementUI:
         self.seat_management.get_seats()[idx - 1].set_is_empty(False)
         self.seat_management.get_seats()[idx - 1].set_start_time(datetime.now())
         time_plans = self.seat_management.get_time_plans()
+        os.system('cls' if os.name == 'nt' else 'clear')
         for i, time_plan in enumerate(time_plans):
             print("{}\t{}\t{}\t{}".format(str(i + 1), time_plan.get_id(), time_plan.get_time(), time_plan.get_charge()))
         plan_idx = int(input("요금제 번호 입력: "))

@@ -14,9 +14,9 @@ class Pos:
         self.seat_management_ui = SeatManagementUI()
         self.food_management_ui = FoodManagementUI()
         self.order_control_ui = OrderControlUI(self.food_management_ui, self.seat_management_ui)
-        self.login_as = None
 
     def shutdown(self):
+        print()
         print("--------------------------------")
         self.book_control_ui.shutdown()
         print("Book Control System Shutdown")

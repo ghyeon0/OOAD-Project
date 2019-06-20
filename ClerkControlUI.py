@@ -21,7 +21,6 @@ class ClerkControlUI:
             self.add_manager()
         elif num == 4:
             self.remove_manager()
-        input("엔터를 입력하세요.")
 
     def add_clerk(self):
         os.system('cls' if os.name == 'nt' else 'clear')

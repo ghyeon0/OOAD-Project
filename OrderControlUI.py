@@ -15,7 +15,6 @@ class OrderControlUI:
             self.make_new_order()
         elif num == 2:
             self.pay(input("CARD / CASH? "))
-        input("엔터를 입력하세요.")
 
     def make_new_order(self):
         os.system('cls' if os.name == 'nt' else 'clear')

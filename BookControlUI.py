@@ -20,7 +20,6 @@ class BookControlUI:
             self.set_damaged_status()
         else:
             print("에러")
-        input("엔터를 입력하세요.")
 
     def show_current_status(self, name_only=False):
         os.system('cls' if os.name == 'nt' else 'clear')

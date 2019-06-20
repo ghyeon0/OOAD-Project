@@ -1,6 +1,7 @@
 from CustomerControl import CustomerControl
 import os
 
+
 class CustomerControlUI:
     def __init__(self):
         self.customer_control = CustomerControl()
@@ -14,7 +15,6 @@ class CustomerControlUI:
             self.add_new_customer()
         elif num == 2:
             self.remove_customer()
-        input("엔터를 입력하세요.")
 
     def add_new_customer(self):
         os.system('cls' if os.name == 'nt' else 'clear')

@@ -18,7 +18,6 @@ class FoodManagementUI:
             self.add_new_food()
         elif num == 3:
             self.remove_food()
-        input("엔터를 입력하세요.")
 
     def show_current_status(self):
         os.system('cls' if os.name == 'nt' else 'clear')
